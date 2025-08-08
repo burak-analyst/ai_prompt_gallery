@@ -1,31 +1,364 @@
 {
   "prompts": [
     {
-      "id": "1",
-      "title": "Craft a Compelling Blog Post",
-      "prompt": "Write a blog post outline and introduction on any topic you choose.",
+      "id": "w1",
+      "title": "Generate a Viral Blog Post",
+      "prompt": "Write a blog post that is likely to go viral on social media. Use a catchy introduction, persuasive tone, and end with a call-to-action. Topic: [your topic].",
       "category": "Writing",
-      "description": "Generate a blog post outline and introduction on any topic.",
-      "bestFor": "Writers looking to kickstart their articles.",
-      "exampleOutput": "Outline: 1. Introduction, 2. Main Point One, 3. Main Point Two, 4. Conclusion. Introduction: ..."
+      "description": "Create a high-impact blog post designed for viral reach.",
+      "bestFor": "Content creators, marketers, bloggers.",
+      "exampleOutput": "Intro: 'Did you know most people ignore this one simple tip?' ... [Persuasive main body] ... CTA: 'Share your thoughts below!'"
     },
     {
-      "id": "2",
-      "title": "Generate Social Media Captions",
-      "prompt": "Create engaging and creative captions for social media posts.",
-      "category": "Marketing",
-      "description": "Get creative captions for your social media posts.",
-      "bestFor": "Social media managers, marketers.",
-      "exampleOutput": "Try: 'Monday vibes 🌞 | Ready to conquer the week!'"
+      "id": "w2",
+      "title": "Summarize Any Article",
+      "prompt": "Summarize the following article into 5 key bullet points. Highlight the most important facts and actionable takeaways. Article: [paste article here]",
+      "category": "Writing",
+      "description": "Get concise, actionable summaries of any article or paper.",
+      "bestFor": "Students, researchers, professionals.",
+      "exampleOutput": "• Main argument: ...\n• Key point 2: ...\n• Conclusion: ..."
     },
     {
-      "id": "3",
-      "title": "Write a Product Description",
-      "prompt": "Draft a persuasive product description for your online store.",
+      "id": "w3",
+      "title": "Rewrite for Simplicity",
+      "prompt": "Rewrite this text to be clear, simple, and suitable for a 12-year-old. Use short sentences and avoid jargon. Text: [paste here]",
+      "category": "Writing",
+      "description": "Make complex info readable for all ages.",
+      "bestFor": "Teachers, UX writers, anyone simplifying info.",
+      "exampleOutput": "\"Photosynthesis is how plants turn sunlight into food. They use water, air, and sunlight to grow.\""
+    },
+    {
+      "id": "w4",
+      "title": "Create an Engaging Story",
+      "prompt": "Write a short story (200-300 words) using this theme: [insert theme]. The story should have a surprising twist at the end.",
+      "category": "Writing",
+      "description": "Get a full story with a plot twist in under 2 minutes.",
+      "bestFor": "Writers, parents, creative minds.",
+      "exampleOutput": "Once upon a time... [plot with twist] ... 'And that’s when they realized, the treasure was inside them all along.'"
+    },
+    {
+      "id": "w5",
+      "title": "Professional Email Draft",
+      "prompt": "Draft a professional email to [recipient] about [topic]. Keep it polite, concise, and include a clear next step.",
+      "category": "Writing",
+      "description": "Instantly generate polished business emails.",
+      "bestFor": "Professionals, job seekers, salespeople.",
+      "exampleOutput": "Subject: Meeting Request\n\nHello [Name],\nI hope this message finds you well. I’d like to discuss [topic]. Are you available this week?\nBest regards,\n[Your Name]"
+    },
+    {
+      "id": "p1",
+      "title": "Daily Action Plan",
+      "prompt": "Generate a focused daily action plan for someone who wants to achieve [goal]. Include 3 top priorities, 2 quick wins, and 1 thing to avoid.",
       "category": "Productivity",
-      "description": "Create a persuasive product description for your online store.",
-      "bestFor": "eCommerce, marketers.",
-      "exampleOutput": "Introducing our latest gadget—sleek, fast, and reliable..."
+      "description": "A structured day plan to get results, not busywork.",
+      "bestFor": "Anyone who wants to be intentional and focused.",
+      "exampleOutput": "Priorities: 1. Finish project report 2. Gym session 3. Update LinkedIn. Quick wins: Email inbox zero, call client. Avoid: Social media before lunch."
+    },
+    {
+      "id": "p2",
+      "title": "Turn Notes Into To-Do List",
+      "prompt": "Convert these meeting/lecture notes into a clear, prioritized to-do list. Notes: [paste your notes here]",
+      "category": "Productivity",
+      "description": "Extract tasks from messy notes instantly.",
+      "bestFor": "Students, professionals, managers.",
+      "exampleOutput": "To-do: 1. Email Sarah project update 2. Research competitor 3. Schedule design review."
+    },
+    {
+      "id": "p3",
+      "title": "Smart Weekly Review",
+      "prompt": "Summarize this week’s progress and generate 3 suggestions for what to improve next week. Highlights: [list your wins and challenges]",
+      "category": "Productivity",
+      "description": "Reflect, learn, and grow with every week.",
+      "bestFor": "Ambitious pros, founders, self-improvers.",
+      "exampleOutput": "This week: Launched new feature, missed workout goals. Next week: 1. Set stricter gym times 2. Ship landing page 3. Delegate bug fixing."
+    },
+    {
+      "id": "p4",
+      "title": "Quick Brainstorm",
+      "prompt": "Brainstorm 10 creative solutions for this challenge: [describe your challenge]. Make suggestions diverse and actionable.",
+      "category": "Productivity",
+      "description": "Unlock new ideas for any problem, instantly.",
+      "bestFor": "Entrepreneurs, teams, solo workers.",
+      "exampleOutput": "1. Partner with micro-influencers 2. Automate onboarding 3. Survey inactive users..."
+    },
+    {
+      "id": "p5",
+      "title": "Focus Sprint Coach",
+      "prompt": "Act as a focus coach. I want to work deeply for 45 minutes on [task]. Give me a motivating starting message, a mid-sprint reminder, and a closing encouragement.",
+      "category": "Productivity",
+      "description": "Turn AI into your Pomodoro/focus buddy.",
+      "bestFor": "Anyone who wants to work in deep, distraction-free sprints.",
+      "exampleOutput": "Start: 'Let’s crush this! For 45 minutes, nothing but your task.' Mid: 'You’re halfway—don’t stop now.' End: 'Sprint complete—celebrate and take a break!'"
+    },
+    {
+      "id": "m1",
+      "title": "Create a Winning Ad Copy",
+      "prompt": "Write a short, persuasive ad copy for [product/service]. Highlight one key benefit and include a call-to-action.",
+      "category": "Marketing",
+      "description": "Ad copy that gets clicks and conversions.",
+      "bestFor": "Marketers, business owners, ad managers.",
+      "exampleOutput": "Discover restful sleep with SleepX Pillow. Wake up energized—order yours today!"
+    },
+    {
+      "id": "m2",
+      "title": "SEO-Optimized Product Description",
+      "prompt": "Write an SEO-friendly product description for [product]. Use relevant keywords, make it compelling, and keep it under 100 words.",
+      "category": "Marketing",
+      "description": "Get found online with AI-powered descriptions.",
+      "bestFor": "eCommerce sellers, SEO specialists.",
+      "exampleOutput": "Our wireless earbuds deliver crystal-clear sound and 24-hour battery life. Perfect for music, work, and travel—buy now for free shipping!"
+    },
+    {
+      "id": "m3",
+      "title": "Engage with Social Media Comments",
+      "prompt": "Reply to this social media comment in a positive, brand-appropriate way: [insert comment here]",
+      "category": "Marketing",
+      "description": "Respond like a pro and boost engagement.",
+      "bestFor": "Brand managers, social teams.",
+      "exampleOutput": "Thanks for your feedback! We’re glad you love our app. Stay tuned for more updates!"
+    },
+    {
+      "id": "m4",
+      "title": "Newsletter Subject Line Generator",
+      "prompt": "Suggest 5 attention-grabbing subject lines for an email newsletter about [topic]. Make them clear, catchy, and 50 characters or less.",
+      "category": "Marketing",
+      "description": "Boost open rates with AI subject lines.",
+      "bestFor": "Email marketers, copywriters.",
+      "exampleOutput": "1. Unlock This Week’s Best Deals\n2. 3 Secrets to Smarter Workflows\n3. Don’t Miss Our New Release..."
+    },
+    {
+      "id": "m5",
+      "title": "Quick Brand Voice Guide",
+      "prompt": "Summarize our brand voice in 3 bullet points. Brand: [describe your brand, audience, values]",
+      "category": "Marketing",
+      "description": "Clarify and document your brand’s tone fast.",
+      "bestFor": "Founders, new hires, agencies.",
+      "exampleOutput": "• Friendly, never pushy\n• Clear and practical\n• Always encouraging action"
+    },
+    {
+      "id": "b1",
+      "title": "Instant Meeting Notes",
+      "prompt": "Summarize the following meeting transcript into clear, actionable notes. Highlight decisions made, next steps, and assigned owners. Transcript: [paste here]",
+      "category": "Business & Work",
+      "description": "Turn messy transcripts into clean, useful notes.",
+      "bestFor": "Managers, teams, professionals.",
+      "exampleOutput": "- Decision: Launch feature next Friday\n- Next step: QA test (assigned to Sam)\n- Follow up with marketing"
+    },
+    {
+      "id": "b2",
+      "title": "Professional SWOT Analysis",
+      "prompt": "Write a brief SWOT analysis for [business, project, or product]. List 2 points each for Strengths, Weaknesses, Opportunities, and Threats.",
+      "category": "Business & Work",
+      "description": "Strategic insight in 1 minute.",
+      "bestFor": "Entrepreneurs, analysts, consultants.",
+      "exampleOutput": "Strengths: Loyal users, high retention\nWeaknesses: Limited brand awareness\nOpportunities: Expand into Europe\nThreats: New competitor"
+    },
+    {
+      "id": "b3",
+      "title": "Pitch Deck Slide Generator",
+      "prompt": "Generate concise bullet points for a pitch deck slide on [topic]. Focus on clarity and impact. Limit to 5 bullets.",
+      "category": "Business & Work",
+      "description": "Fill pitch decks in seconds, not hours.",
+      "bestFor": "Startups, founders, sales teams.",
+      "exampleOutput": "• Market need: 80% lack easy tracking\n• Solution: One-click reporting\n• Business model: Monthly SaaS"
+    },
+    {
+      "id": "b4",
+      "title": "Write a Follow-Up Email",
+      "prompt": "Draft a polite follow-up email to [person/company] about [topic]. Mention last contact and suggest a clear next step.",
+      "category": "Business & Work",
+      "description": "Never forget to close the loop on deals.",
+      "bestFor": "Sales, account managers, job seekers.",
+      "exampleOutput": "Hi Sarah, just checking in after our last call about the proposal. Would you like to schedule a quick follow-up this week?"
+    },
+    {
+      "id": "b5",
+      "title": "Quick Decision Matrix",
+      "prompt": "Help me make a decision about [choice]. Create a simple pro/con list and give a 1-sentence recommendation.",
+      "category": "Business & Work",
+      "description": "AI weighs the options—fast.",
+      "bestFor": "Busy professionals, leaders.",
+      "exampleOutput": "Option: Hire new designer. Pros: Fresh ideas, more bandwidth. Cons: Onboarding time, higher cost. Recommendation: Hire if budget allows."
+    },
+    {
+      "id": "c1",
+      "title": "Explain Code in Plain English",
+      "prompt": "Explain the following code in simple, step-by-step language for a beginner. Code: [paste code here]",
+      "category": "Coding & Tech",
+      "description": "Demystify any codebase—no jargon.",
+      "bestFor": "New devs, mentors, non-tech teammates.",
+      "exampleOutput": "\"This function takes a list, checks each number, and prints it if it’s even.\""
+    },
+    {
+      "id": "c2",
+      "title": "Debug This Code",
+      "prompt": "Find and fix any bugs or errors in this code. Suggest improvements. Code: [paste code here]",
+      "category": "Coding & Tech",
+      "description": "Get actionable bug fixes, instantly.",
+      "bestFor": "Developers, learners, anyone stuck.",
+      "exampleOutput": "Bug: Missing semicolon on line 4. Improvement: Use a forEach loop for clarity."
+    },
+    {
+      "id": "c3",
+      "title": "SQL Query Generator",
+      "prompt": "Write an SQL query for this goal: [describe data you want]. Explain what the query does.",
+      "category": "Coding & Tech",
+      "description": "Write, use, and learn SQL fast.",
+      "bestFor": "Data analysts, app devs, business pros.",
+      "exampleOutput": "SELECT name, email FROM users WHERE created_at > '2024-01-01';\nThis gets all users who joined after Jan 1, 2024."
+    },
+    {
+      "id": "c4",
+      "title": "Regex Builder",
+      "prompt": "Write a regular expression that matches: [describe pattern]. Explain it in plain English.",
+      "category": "Coding & Tech",
+      "description": "Never guess at regex again.",
+      "bestFor": "Developers, testers, data wranglers.",
+      "exampleOutput": "Regex: ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.com$\nExplained: Matches emails ending with .com"
+    },
+    {
+      "id": "c5",
+      "title": "Code Review for Best Practices",
+      "prompt": "Review this code for best practices and style. Give 3 quick suggestions. Code: [paste code here]",
+      "category": "Coding & Tech",
+      "description": "Quick, actionable code reviews.",
+      "bestFor": "Anyone who wants cleaner, safer code.",
+      "exampleOutput": "1. Use camelCase for variables\n2. Add comments for functions\n3. Avoid deep nesting"
+    },
+    {
+      "id": "f1",
+      "title": "Personalized Joke Generator",
+      "prompt": "Tell me a funny joke about [topic, person, or hobby]. Keep it light and original.",
+      "category": "Fun & Lifestyle",
+      "description": "Instant laughs on any topic.",
+      "bestFor": "Anyone who needs a smile.",
+      "exampleOutput": "\"Why did the developer stay at their desk? To catch the next bug!\""
+    },
+    {
+      "id": "f2",
+      "title": "Plan My Weekend",
+      "prompt": "Create a fun weekend plan for someone who enjoys [interests/hobbies] and lives in [city]. Include one outdoor and one indoor activity.",
+      "category": "Fun & Lifestyle",
+      "description": "Make every weekend memorable.",
+      "bestFor": "Busy people, parents, friends.",
+      "exampleOutput": "Saturday: Visit the botanical gardens (outdoor). Sunday: Try a new board game café (indoor)."
+    },
+    {
+      "id": "f3",
+      "title": "Recipe From What’s In My Fridge",
+      "prompt": "Suggest a tasty recipe I can make using only these ingredients: [list ingredients]. Keep it simple and healthy.",
+      "category": "Fun & Lifestyle",
+      "description": "Never waste food—get creative meals.",
+      "bestFor": "Anyone cooking at home.",
+      "exampleOutput": "Omelet with spinach, tomatoes, and feta. Optional: add a side salad."
+    },
+    {
+      "id": "f4",
+      "title": "Quick Mood Booster",
+      "prompt": "Share 3 fast tips or affirmations to boost my mood after a rough day. Make them positive and practical.",
+      "category": "Fun & Lifestyle",
+      "description": "Feel better—instantly.",
+      "bestFor": "Anyone, any age.",
+      "exampleOutput": "1. Take 5 deep breaths\n2. Text a friend something nice\n3. Remember one thing you did well today"
+    },
+    {
+      "id": "f5",
+      "title": "Fun Trivia Time",
+      "prompt": "Give me 3 fun trivia questions (and answers) about [topic]. Make them interesting but not too hard.",
+      "category": "Fun & Lifestyle",
+      "description": "Play trivia with friends or solo.",
+      "bestFor": "Game night, family, icebreakers.",
+      "exampleOutput": "Q: What planet is known as the Red Planet? A: Mars\nQ: Who wrote 'Harry Potter'? A: J.K. Rowling"
+    },
+    {
+      "id": "l1",
+      "title": "Explain Like I’m 5",
+      "prompt": "Explain [topic or concept] in the simplest way possible, as if teaching a 5-year-old.",
+      "category": "Learning & Study",
+      "description": "Make any concept easy for anyone.",
+      "bestFor": "Students, parents, teachers.",
+      "exampleOutput": "\"Electricity is like water flowing through pipes—it moves and gives things energy.\""
+    },
+    {
+      "id": "l2",
+      "title": "Flashcard Generator",
+      "prompt": "Generate 10 flashcards (Q&A) for studying [subject or topic].",
+      "category": "Learning & Study",
+      "description": "Turn any subject into bite-size study cards.",
+      "bestFor": "Students, learners, teachers.",
+      "exampleOutput": "Q: Capital of France? A: Paris\nQ: H2O is the formula for? A: Water"
+    },
+    {
+      "id": "l3",
+      "title": "Quiz Me",
+      "prompt": "Ask me 5 quiz questions about [topic], from easy to challenging, and tell me the answers after I try.",
+      "category": "Learning & Study",
+      "description": "Practice and test knowledge, fast.",
+      "bestFor": "Exam prep, self-learners.",
+      "exampleOutput": "Q1: What is photosynthesis? A: ... Q5: What’s the powerhouse of the cell? A: Mitochondria"
+    },
+    {
+      "id": "l4",
+      "title": "Summarize for Study",
+      "prompt": "Summarize this textbook chapter or article into 5 concise bullet points, focusing on what to remember for a test.",
+      "category": "Learning & Study",
+      "description": "High-yield summaries for exam prep.",
+      "bestFor": "Test takers, note-takers.",
+      "exampleOutput": "• Main concept: Supply and demand\n• Key term: Elasticity\n• Example: Apple price drop increases sales"
+    },
+    {
+      "id": "l5",
+      "title": "Language Practice Partner",
+      "prompt": "Act as my [language] conversation partner. Ask me simple questions, correct my mistakes, and explain grammar points.",
+      "category": "Learning & Study",
+      "description": "Practice any language—no tutor needed.",
+      "bestFor": "Language learners, travelers.",
+      "exampleOutput": "Bot: How are you today? User: I good. Bot: You should say, 'I am good.'"
+    },
+    {
+      "id": "cr1",
+      "title": "Polish My Resume Bullet",
+      "prompt": "Rewrite this resume bullet point to be more impactful, using action verbs and quantifying results. Original: [paste bullet]",
+      "category": "Career",
+      "description": "Make your CV stand out with stronger phrasing.",
+      "bestFor": "Job seekers, students.",
+      "exampleOutput": "Led a team of 5 to launch 3 new features, increasing user retention by 20%."
+    },
+    {
+      "id": "cr2",
+      "title": "Answer Common Interview Questions",
+      "prompt": "Help me answer this interview question in a strong, concise way: [paste question]",
+      "category": "Career",
+      "description": "Prepare for any interview, fast.",
+      "bestFor": "Job seekers, career changers.",
+      "exampleOutput": "Q: Tell me about yourself. A: I’m a results-driven analyst with a passion for solving problems..."
+    },
+    {
+      "id": "cr3",
+      "title": "LinkedIn Headline Generator",
+      "prompt": "Suggest 3 catchy LinkedIn headlines for a [role/field] who specializes in [skills].",
+      "category": "Career",
+      "description": "Upgrade your profile’s first impression.",
+      "bestFor": "Networkers, job seekers.",
+      "exampleOutput": "• Data Analyst | Turning Numbers Into Insights\n• Product Manager | Building What Matters\n• Software Engineer | Code with Impact"
+    },
+    {
+      "id": "cr4",
+      "title": "Negotiate Salary Email",
+      "prompt": "Draft a polite, professional email to negotiate salary for a new job offer. Include gratitude and specific ask.",
+      "category": "Career",
+      "description": "Negotiate with confidence.",
+      "bestFor": "Job changers, applicants.",
+      "exampleOutput": "Thank you for the offer. Based on my skills, I’d like to discuss a salary closer to $X. Looking forward to your response."
+    },
+    {
+      "id": "cr5",
+      "title": "Find Transferable Skills",
+      "prompt": "List 5 transferable skills someone in [your current job/field] can use to switch to [target job/field].",
+      "category": "Career",
+      "description": "See the value in your experience—instantly.",
+      "bestFor": "Career changers, students.",
+      "exampleOutput": "From sales to project management: Communication, organization, negotiation, reporting, leadership."
     }
   ]
 }
