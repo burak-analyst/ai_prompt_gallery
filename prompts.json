@@ -1,0 +1,31 @@
+{
+  "prompts": [
+    {
+      "id": "1",
+      "title": "Craft a Compelling Blog Post",
+      "prompt": "Write a blog post outline and introduction on any topic you choose.",
+      "category": "Writing",
+      "description": "Generate a blog post outline and introduction on any topic.",
+      "bestFor": "Writers looking to kickstart their articles.",
+      "exampleOutput": "Outline: 1. Introduction, 2. Main Point One, 3. Main Point Two, 4. Conclusion. Introduction: ..."
+    },
+    {
+      "id": "2",
+      "title": "Generate Social Media Captions",
+      "prompt": "Create engaging and creative captions for social media posts.",
+      "category": "Marketing",
+      "description": "Get creative captions for your social media posts.",
+      "bestFor": "Social media managers, marketers.",
+      "exampleOutput": "Try: 'Monday vibes 🌞 | Ready to conquer the week!'"
+    },
+    {
+      "id": "3",
+      "title": "Write a Product Description",
+      "prompt": "Draft a persuasive product description for your online store.",
+      "category": "Productivity",
+      "description": "Create a persuasive product description for your online store.",
+      "bestFor": "eCommerce, marketers.",
+      "exampleOutput": "Introducing our latest gadget—sleek, fast, and reliable..."
+    }
+  ]
+}
