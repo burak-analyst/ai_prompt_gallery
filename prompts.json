@@ -139,7 +139,7 @@
       "id": "b1",
       "title": "Instant Meeting Notes",
       "prompt": "Summarize the following meeting transcript into clear, actionable notes. Highlight decisions made, next steps, and assigned owners. Transcript: [paste here]",
-      "category": "Business & Work",
+      "category": "Business",
       "description": "Turn messy transcripts into clean, useful notes.",
       "bestFor": "Managers, teams, professionals.",
       "exampleOutput": "- Decision: Launch feature next Friday\n- Next step: QA test (assigned to Sam)\n- Follow up with marketing"
@@ -148,7 +148,7 @@
       "id": "b2",
       "title": "Professional SWOT Analysis",
       "prompt": "Write a brief SWOT analysis for [business, project, or product]. List 2 points each for Strengths, Weaknesses, Opportunities, and Threats.",
-      "category": "Business & Work",
+      "category": "Business",
       "description": "Strategic insight in 1 minute.",
       "bestFor": "Entrepreneurs, analysts, consultants.",
       "exampleOutput": "Strengths: Loyal users, high retention\nWeaknesses: Limited brand awareness\nOpportunities: Expand into Europe\nThreats: New competitor"
@@ -157,7 +157,7 @@
       "id": "b3",
       "title": "Pitch Deck Slide Generator",
       "prompt": "Generate concise bullet points for a pitch deck slide on [topic]. Focus on clarity and impact. Limit to 5 bullets.",
-      "category": "Business & Work",
+      "category": "Business",
       "description": "Fill pitch decks in seconds, not hours.",
       "bestFor": "Startups, founders, sales teams.",
       "exampleOutput": "• Market need: 80% lack easy tracking\n• Solution: One-click reporting\n• Business model: Monthly SaaS"
@@ -166,7 +166,7 @@
       "id": "b4",
       "title": "Write a Follow-Up Email",
       "prompt": "Draft a polite follow-up email to [person/company] about [topic]. Mention last contact and suggest a clear next step.",
-      "category": "Business & Work",
+      "category": "Business",
       "description": "Never forget to close the loop on deals.",
       "bestFor": "Sales, account managers, job seekers.",
       "exampleOutput": "Hi Sarah, just checking in after our last call about the proposal. Would you like to schedule a quick follow-up this week?"
@@ -175,7 +175,7 @@
       "id": "b5",
       "title": "Quick Decision Matrix",
       "prompt": "Help me make a decision about [choice]. Create a simple pro/con list and give a 1-sentence recommendation.",
-      "category": "Business & Work",
+      "category": "Business",
       "description": "AI weighs the options—fast.",
       "bestFor": "Busy professionals, leaders.",
       "exampleOutput": "Option: Hire new designer. Pros: Fresh ideas, more bandwidth. Cons: Onboarding time, higher cost. Recommendation: Hire if budget allows."
@@ -274,7 +274,7 @@
       "id": "l1",
       "title": "Explain Like I’m 5",
       "prompt": "Explain [topic or concept] in the simplest way possible, as if teaching a 5-year-old.",
-      "category": "Learning & Study",
+      "category": "Learning",
       "description": "Make any concept easy for anyone.",
       "bestFor": "Students, parents, teachers.",
       "exampleOutput": "\"Electricity is like water flowing through pipes—it moves and gives things energy.\""
@@ -283,7 +283,7 @@
       "id": "l2",
       "title": "Flashcard Generator",
       "prompt": "Generate 10 flashcards (Q&A) for studying [subject or topic].",
-      "category": "Learning & Study",
+      "category": "Learning",
       "description": "Turn any subject into bite-size study cards.",
       "bestFor": "Students, learners, teachers.",
       "exampleOutput": "Q: Capital of France? A: Paris\nQ: H2O is the formula for? A: Water"
@@ -292,7 +292,7 @@
       "id": "l3",
       "title": "Quiz Me",
       "prompt": "Ask me 5 quiz questions about [topic], from easy to challenging, and tell me the answers after I try.",
-      "category": "Learning & Study",
+      "category": "Learning",
       "description": "Practice and test knowledge, fast.",
       "bestFor": "Exam prep, self-learners.",
       "exampleOutput": "Q1: What is photosynthesis? A: ... Q5: What’s the powerhouse of the cell? A: Mitochondria"
@@ -301,7 +301,7 @@
       "id": "l4",
       "title": "Summarize for Study",
       "prompt": "Summarize this textbook chapter or article into 5 concise bullet points, focusing on what to remember for a test.",
-      "category": "Learning & Study",
+      "category": "Learning",
       "description": "High-yield summaries for exam prep.",
       "bestFor": "Test takers, note-takers.",
       "exampleOutput": "• Main concept: Supply and demand\n• Key term: Elasticity\n• Example: Apple price drop increases sales"
@@ -310,7 +310,7 @@
       "id": "l5",
       "title": "Language Practice Partner",
       "prompt": "Act as my [language] conversation partner. Ask me simple questions, correct my mistakes, and explain grammar points.",
-      "category": "Learning & Study",
+      "category": "Learning",
       "description": "Practice any language—no tutor needed.",
       "bestFor": "Language learners, travelers.",
       "exampleOutput": "Bot: How are you today? User: I good. Bot: You should say, 'I am good.'"
